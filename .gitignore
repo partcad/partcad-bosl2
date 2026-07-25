@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.partcad/
+.venv/
+# The BOSL2 source is fetched on demand into ~/.cache/partcad-bosl2, never here,
+# but ignore a local copy just in case it is pointed at the repo.
+/BOSL2/

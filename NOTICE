@@ -1,0 +1,21 @@
+partcad-bosl2
+=============
+
+This PartCAD package generates parts from BOSL2, the Belfry OpenSCAD Library v2.
+
+The code in this repository (the `bosl2_repo.py` repository plugin, the PartCAD
+configuration and the tests) is:
+
+    Copyright 2026 PartCAD
+    Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+BOSL2 itself is NOT included in this repository. It is downloaded on demand from
+its upstream project at build time:
+
+    BOSL2 - The Belfry OpenSCAD Library, v2
+    https://github.com/BelfrySCAD/BOSL2/
+    Copyright the BOSL2 authors.
+    Licensed under the BSD 2-Clause License.
+
+BOSL2's own license (BSD 2-Clause) applies to the downloaded BOSL2 source and to
+the geometry it produces. See the BOSL2 repository for the full license text.
