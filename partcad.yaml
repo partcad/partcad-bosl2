@@ -10,6 +10,11 @@
 # the very same addresses its consumers will.
 name: //pub/std/metric/bosl2
 
+# Requires the PartCAD version that introduced plugin-backed (external) packages
+# and parametric OpenSCAD parts. Pinned to the current devel version so earlier
+# releases do not attempt to load this package.
+partcad: ">=0.7.146"
+
 desc: |
   BOSL2 for PartCAD: the Belfry OpenSCAD Library v2 (https://github.com/BelfrySCAD/BOSL2/)
   exposed as parametric PartCAD parts. The BOSL2 source is fetched on demand and
